@@ -1,0 +1,10 @@
+applications:
+- path: mendixBoilerplate.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: muratapp
+  host: muratapp
+  disk_quota: 1024M
+  services:
+  - muratapp-cleardb
